@@ -1,4 +1,3 @@
-# pwa-sample
 
 > My dandy Nuxt.js project
 
