@@ -38,6 +38,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    ['@nuxtjs/pwa', { icon: false }],
   ],
   /*
   ** Build configuration
@@ -48,5 +49,9 @@ export default {
     */
     extend(config, ctx) {
     }
+  },
+  manifest: {
+    name: 'My Awesome App',
+    lang: 'ja'
   }
 }
